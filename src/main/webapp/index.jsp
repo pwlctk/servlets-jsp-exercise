@@ -35,8 +35,11 @@
     </c:when>
     <c:otherwise>
         <h1> Witaj ${sessionScope.user.name}</h1>
-
         <a href="/add.jsp">Dodaj post</a>
+        <c:if test="${sessionScope.user.role == 'ROLE_ADMIN'}">
+            <br>
+            <a href="/users">Zobacz wszystkich użytkowników</a>
+        </c:if>
         <br>
         <br>
         <a href="/logout">Wyloguj się</a>

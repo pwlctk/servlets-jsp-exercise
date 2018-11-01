@@ -25,6 +25,6 @@
                 </ul>
             </div>
         </c:forEach>
-
+        <a href="/">Wróć do strony głównej</a>
     </body>
 </html>
