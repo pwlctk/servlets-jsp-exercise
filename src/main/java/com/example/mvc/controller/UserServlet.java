@@ -1,8 +1,8 @@
 package com.example.mvc.controller;
 
 import com.example.mvc.model.Message;
-import com.example.mvc.service.UserService;
 import com.example.mvc.model.User;
+import com.example.mvc.service.UserService;
 import com.google.common.collect.Lists;
 import com.google.common.primitives.Longs;
 
