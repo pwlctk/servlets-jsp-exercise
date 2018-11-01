@@ -18,7 +18,7 @@ public class LoginServlet extends HttpServlet {
     private UserService userService;
 
     @Override
-    public void init() throws ServletException {
+    public void init() {
         this.userService = new UserService();
     }
 
