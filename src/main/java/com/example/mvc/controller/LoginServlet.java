@@ -40,4 +40,5 @@ public class LoginServlet extends HttpServlet {
         }
         req.getRequestDispatcher("/posts").forward(req, resp);
     }
+
 }
