@@ -59,5 +59,4 @@ public class AuthorityFilter implements Filter {
     public void destroy() {
 
     }
-
 }
